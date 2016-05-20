@@ -19,11 +19,22 @@ app = Flask(__name__)
 from bot_logic import handler
 
 bot = telegram.Bot(token='234777824:AAGL3fWSKxGuRR8oENhu7Jo-3EhvYKRH_P8')
+# db = MySQLdb.connect(
+#     unix_socket='/cloudsql/{}:{}'.format(
+#         CLOUDSQL_PROJECT,
+#         CLOUDSQL_INSTANCE),
+#     user='root',
+#     )
+
 db = MySQLdb.connect(
     unix_socket='/cloudsql/{}:{}'.format(
-        CLOUDSQL_PROJECT,
-        CLOUDSQL_INSTANCE),
-    user='root')
+         CLOUDSQL_PROJECT,
+         CLOUDSQL_INSTANCE),
+    user='root',
+    db='mydatabase',
+)
+
+cursor = db.cursor()
 
 def get_random_joke():
     return "random joke"
@@ -39,7 +50,7 @@ def webhook_handler():
 
         # Telegram understands UTF-8, so encode text for unicode compatibility
         text = update.message.text.encode('utf-8')
-        handler(bot, update,db)
+        handler(bot, update, db, cursor)
     return 'ok'
 
 
