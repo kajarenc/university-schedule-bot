@@ -250,8 +250,6 @@ def handler(bot, update, db, cursor):
     root = tree.getroot()
     if chat_state == NEW_USER and text == '/start':
         state[chat_id] = NEW_USER  # set the state
-        # context[chat_id] = user_id  # save the user id to context
-        # text = root.find('gretting').text
         reply_markup_language = ReplyKeyboardMarkup(
             [["armenian", "english"]],
             one_time_keyboard=True)
@@ -262,7 +260,7 @@ def handler(bot, update, db, cursor):
         group_context[chat_id] = None
         language_context[chat_id] = "english"
         bot.sendMessage(chat_id,
-                        text="Reseted your data , please use /start command to restart our communication |||" + text + chat_state,
+                        text="Reseted your data , please use /start command to restart our communication",
                         reply_markup=ReplyKeyboardHide())
 
     elif chat_state == NEW_USER and text in LANGUAGES:
@@ -279,16 +277,12 @@ def handler(bot, update, db, cursor):
         text = root.find('pass').text
         query = "insert into users (user_id, chat_id, lang, gruppa) values (%s, %s, '%s', '%s'); " % (
             user_id, chat_id, chat_context_language, chat_context_group)
-        print "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         print query
         try:
             cursor.execute(query)
             db.commit()
         except:
-            db.rollback()
-
-        # result = cursor.execute("select * from users;")
-        # print result.fetchall()
+            pass
         if chat_context_language == 'english':
             bot.sendMessage(chat_id=chat_id, text=text, reply_markup=reply_markup)
         elif chat_context_language == 'armenian':
@@ -296,7 +290,7 @@ def handler(bot, update, db, cursor):
     elif chat_state == NEW_USER and text not in GROUPS:
         text = root.find('annoying').text
         bot.sendMessage(chat_id=chat_id,
-                        text=text + chat_state, reply_markup=ReplyKeyboardHide())
+                        text=text, reply_markup=ReplyKeyboardHide())
 
     elif chat_state == REGISTERED_USER:
         if text in WEEKDAYS_ENGLISH or text in WEEKDAYS_ARMENIAN and chat_context_group in GROUPS:
@@ -306,9 +300,8 @@ def handler(bot, update, db, cursor):
         elif text == "LOL":
             bot.sendMessage(chat_id=chat_id, text=get_random_joke(), reply_markup=reply_markup)
         else:
-            state[chat_id] = NEW_USER
-            group_context[chat_id] = None
-            language_context[chat_id] = "english"
+            keyboard = reply_markup if chat_context_language == 'english' else reply_markup_armenian
+            text = "Please use keyboard!" if chat_context_language == 'english' else "Օգտագործիր ստեղնաշար..."
             bot.sendMessage(chat_id,
-                            text="Something went wrong , please use /start command to restart our communication |||" + text + chat_state,
-                            reply_markup=ReplyKeyboardHide())
+                            text=text,
+                            reply_markup=keyboard)
