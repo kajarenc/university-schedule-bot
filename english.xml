@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <data>
     <gretting> %s, please enter your group number and I can tell your schedule for week!</gretting>
-    <annoying>Hey, if you don't tell me you'r group number, how can i receive the schedule, so ... please send you're group number...</annoying>
-    <pass>Succeeded! Select the day, student</pass>
+    <annoying>%s, if you don't tell me you'r group number, how can i receive the schedule, so ... please send you're group number...</annoying>
+    <pass>Succeeded! Select the day, %s</pass>
     <lang_choose>Language chosen, please tell your group number</lang_choose>
 </data>

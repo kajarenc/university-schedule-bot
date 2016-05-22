@@ -92,6 +92,194 @@ SHEDULE = {
             "Data Analysis",
 
         ],
+    },
+    '204': {
+        'Monday': [
+            "Discrete Mathematics",
+            "Object Oriented Programming",
+            "Data Structures and Algorithms",
+        ],
+        'Tuesday': [
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+            "Writing the Essay",
+
+        ],
+        'Wednesday': [
+            "Data Analysis",
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+            "Data Structures and Algorithms",
+        ],
+        'Thursday': [
+            "Calculus II for Engineers ",
+            "Object Oriented Programming",
+            "Data Structures and Algorithms",
+
+        ],
+        'Friday': [
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Calculus II for Engineers ",
+
+        ],
+    },
+    '205': {
+        'Monday': [
+            "Object Oriented Programming",
+            "Calculus II for Engineers ",
+            "Data Analysis",
+
+        ],
+        'Tuesday': [
+            "Discrete Mathematics",
+            "Writing the Essay",
+            "Intro To Topology",
+            "Calculus II for Engineers ",
+        ],
+        'Wednesday': [
+            "Data Analysis",
+            "Discrete Mathematics",
+            "Object Oriented Programming",
+        ],
+        'Thursday': [
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Writing the Essay",
+            "Data Analysis",
+        ],
+        'Friday': [
+            "Discrete Mathematics",
+            "Object Oriented Programming",
+            "Data Structures and Algorithms",
+        ],
+    },
+    '206': {
+        'Monday': [
+            "Writing the Essay",
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+        ],
+        'Tuesday': [
+            "Data Analysis",
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+
+        ],
+        'Wednesday': [
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+            "Data Analysis",
+        ],
+        'Thursday': [
+            "Writing the Essay",
+            "Data Analysis",
+            "Intro To Topology",
+            "Object Oriented Programming",
+
+        ],
+        'Friday': [
+            "Data Structures and Algorithms",
+            "Discrete Mathematics",
+            "Data Analysis",
+
+        ],
+    },
+    '207': {
+        'Monday': [
+            "Discrete Mathematics",
+            "Object Oriented Programming",
+            "Data Structures and Algorithms",
+        ],
+        'Tuesday': [
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+            "Writing the Essay",
+
+        ],
+        'Wednesday': [
+            "Data Analysis",
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+            "Data Structures and Algorithms",
+        ],
+        'Thursday': [
+            "Calculus II for Engineers ",
+            "Object Oriented Programming",
+            "Data Structures and Algorithms",
+
+        ],
+        'Friday': [
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Calculus II for Engineers ",
+
+        ],
+    },
+    '208': {
+        'Monday': [
+            "Object Oriented Programming",
+            "Calculus II for Engineers ",
+            "Data Analysis",
+
+        ],
+        'Tuesday': [
+            "Discrete Mathematics",
+            "Writing the Essay",
+            "Intro To Topology",
+            "Calculus II for Engineers ",
+        ],
+        'Wednesday': [
+            "Data Analysis",
+            "Discrete Mathematics",
+            "Object Oriented Programming",
+        ],
+        'Thursday': [
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Writing the Essay",
+            "Data Analysis",
+        ],
+        'Friday': [
+            "Discrete Mathematics",
+            "Object Oriented Programming",
+            "Data Structures and Algorithms",
+        ],
+    },
+    '209': {
+        'Monday': [
+            "Writing the Essay",
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+        ],
+        'Tuesday': [
+            "Data Analysis",
+            "Data Structures and Algorithms",
+            "Object Oriented Programming",
+
+        ],
+        'Wednesday': [
+            "Object Oriented Programming",
+            "Discrete Mathematics",
+            "Data Analysis",
+        ],
+        'Thursday': [
+            "Writing the Essay",
+            "Data Analysis",
+            "Intro To Topology",
+            "Object Oriented Programming",
+
+        ],
+        'Friday': [
+            "Data Structures and Algorithms",
+            "Discrete Mathematics",
+            "Data Analysis",
+
+        ],
     }
 }
 
@@ -195,11 +383,209 @@ SHEDULE_ARMENIAN = {
 
         ],
     },
+    '204': {
+        'ԵՐԿՈՒՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Հավանականությունների տեսություն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ԵՐԵՔՇԱԲԹԻ': [
+            "Դիֆերենցիալ հավասարումներ",
+            "Մաթեմատիկական տրամաբանություն",
+            "Անգլերեն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ՉՈՐԵՔՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Մաթեմատիկական տրամաբանություն",
+            "Դիֆերենցիալ հավասարումներ",
+        ],
+        'ՀԻՆԳՇԱԲԹԻ': [
+            "ՓԻԼԻՍՈՓԱՅՈՒԹՅՈՒՆ",
+            "Դիֆերենցիալ հավասարումներ",
+            "ՏՆՏԵՍԱԳԻՏՈՒԹՅՈՒՆ ",
+
+        ],
+        'ՈՒՐԲԱԹ': [
+            "Տվյալների հենքեր",
+            "Մաթ. ֆիզ. հավասրումներ",
+            "Փիլիսոփայություն",
+            "Մաթեմատիկական տրամաբանություն",
+
+        ],
+    },
+    '205': {
+        'ԵՐԿՈՒՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Հավանականությունների տեսություն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ԵՐԵՔՇԱԲԹԻ': [
+            "Դիֆերենցիալ հավասարումներ",
+            "Մաթեմատիկական տրամաբանություն",
+            "Անգլերեն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ՉՈՐԵՔՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Մաթեմատիկական տրամաբանություն",
+            "Դիֆերենցիալ հավասարումներ",
+        ],
+        'ՀԻՆԳՇԱԲԹԻ': [
+            "ՓԻԼԻՍՈՓԱՅՈՒԹՅՈՒՆ",
+            "Դիֆերենցիալ հավասարումներ",
+            "Տնտեսագիտություն",
+
+        ],
+        'ՈՒՐԲԱԹ': [
+            "Տվյալների հենքեր",
+            "Մաթ. ֆիզ. հավասրումներ",
+            "Փիլիսոփայություն",
+            "Մաթեմատիկական տրամաբանություն",
+
+        ],
+    },
+    '206': {
+        'ԵՐԿՈՒՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Հավանականությունների տեսություն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ԵՐԵՔՇԱԲԹԻ': [
+            "Դիֆերենցիալ հավասարումներ",
+            "Մաթեմատիկական տրամաբանություն",
+            "Անգլերեն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ՉՈՐԵՔՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Մաթեմատիկական տրամաբանություն",
+            "Դիֆերենցիալ հավասարումներ",
+        ],
+        'ՀԻՆԳՇԱԲԹԻ': [
+            "Փիլիսոփայություն",
+            "Դիֆերենցիալ հավասարումներ",
+            "Տնտեսագիտություն",
+
+        ],
+        'ՈՒՐԲԱԹ': [
+            "Տվյալների հենքեր",
+            "Մաթ. ֆիզ. հավասրումներ",
+            "Փիլիսոփայություն",
+            "Մաթեմատիկական տրամաբանություն",
+
+        ],
+    },
+    '207': {
+        'ԵՐԿՈՒՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Հավանականությունների տեսություն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ԵՐԵՔՇԱԲԹԻ': [
+            "Դիֆերենցիալ հավասարումներ",
+            "Մաթեմատիկական տրամաբանություն",
+            "Անգլերեն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ՉՈՐԵՔՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Մաթեմատիկական տրամաբանություն",
+            "Դիֆերենցիալ հավասարումներ",
+        ],
+        'ՀԻՆԳՇԱԲԹԻ': [
+            "ՓԻԼԻՍՈՓԱՅՈՒԹՅՈՒՆ",
+            "Դիֆերենցիալ հավասարումներ",
+            "ՏՆՏԵՍԱԳԻՏՈՒԹՅՈՒՆ ",
+
+        ],
+        'ՈՒՐԲԱԹ': [
+            "Տվյալների հենքեր",
+            "Մաթ. ֆիզ. հավասրումներ",
+            "Փիլիսոփայություն",
+            "Մաթեմատիկական տրամաբանություն",
+
+        ],
+    },
+    '208': {
+        'ԵՐԿՈՒՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Հավանականությունների տեսություն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ԵՐԵՔՇԱԲԹԻ': [
+            "Դիֆերենցիալ հավասարումներ",
+            "Մաթեմատիկական տրամաբանություն",
+            "Անգլերեն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ՉՈՐԵՔՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Մաթեմատիկական տրամաբանություն",
+            "Դիֆերենցիալ հավասարումներ",
+        ],
+        'ՀԻՆԳՇԱԲԹԻ': [
+            "ՓԻԼԻՍՈՓԱՅՈՒԹՅՈՒՆ",
+            "Դիֆերենցիալ հավասարումներ",
+            "Տնտեսագիտություն",
+
+        ],
+        'ՈՒՐԲԱԹ': [
+            "Տվյալների հենքեր",
+            "Մաթ. ֆիզ. հավասրումներ",
+            "Փիլիսոփայություն",
+            "Մաթեմատիկական տրամաբանություն",
+
+        ],
+    },
+    '209': {
+        'ԵՐԿՈՒՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Հավանականությունների տեսություն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ԵՐԵՔՇԱԲԹԻ': [
+            "Դիֆերենցիալ հավասարումներ",
+            "Մաթեմատիկական տրամաբանություն",
+            "Անգլերեն",
+            "Գործողությունների հետազոտում",
+
+        ],
+        'ՉՈՐԵՔՇԱԲԹԻ': [
+            "Տվյալների հենքեր",
+            "Մաթեմատիկական տրամաբանություն",
+            "Դիֆերենցիալ հավասարումներ",
+        ],
+        'ՀԻՆԳՇԱԲԹԻ': [
+            "Փիլիսոփայություն",
+            "Դիֆերենցիալ հավասարումներ",
+            "Տնտեսագիտություն",
+
+        ],
+        'ՈՒՐԲԱԹ': [
+            "Տվյալների հենքեր",
+            "Մաթ. ֆիզ. հավասրումներ",
+            "Փիլիսոփայություն",
+            "Մաթեմատիկական տրամաբանություն",
+
+        ],
+    },
 
 }
 WEEKDAYS_ENGLISH = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 WEEKDAYS_ARMENIAN = ["ԵՐԿՈՒՇԱԲԹԻ", "ԵՐԵՔՇԱԲԹԻ", "ՉՈՐԵՔՇԱԲԹԻ", "ՀԻՆԳՇԱԲԹԻ", "ՈՒՐԲԱԹ"]
-GROUPS = ['201', '202', '203']
+GROUPS = ['201', '202', '203', '204', '205', '206', '207', '208', '209']
 LANGUAGES = ['armenian', 'english']
 
 NEW_USER = 'new_user'
@@ -260,7 +646,7 @@ def handler(bot, update, db, cursor):
         group_context[chat_id] = None
         language_context[chat_id] = "english"
         bot.sendMessage(chat_id,
-                        text="Reseted your data , please use /start command to restart our communication",
+                        text="Your data reset , please use /start command to restart our communication",
                         reply_markup=ReplyKeyboardHide())
 
     elif chat_state == NEW_USER and text in LANGUAGES:
@@ -274,7 +660,7 @@ def handler(bot, update, db, cursor):
         state[chat_id] = REGISTERED_USER
         group_context[chat_id] = text
         chat_context_group = group_context[chat_id]
-        text = root.find('pass').text
+        text = root.find('pass').text % update.message.from_user.name
         query = "insert into users (user_id, chat_id, lang, gruppa) values (%s, %s, '%s', '%s'); " % (
             user_id, chat_id, chat_context_language, chat_context_group)
         print query
@@ -288,7 +674,7 @@ def handler(bot, update, db, cursor):
         elif chat_context_language == 'armenian':
             bot.sendMessage(chat_id=chat_id, text=text, reply_markup=reply_markup_armenian)
     elif chat_state == NEW_USER and text not in GROUPS:
-        text = root.find('annoying').text
+        text = root.find('annoying').text % update.message.from_user.name
         bot.sendMessage(chat_id=chat_id,
                         text=text, reply_markup=ReplyKeyboardHide())
 
@@ -301,7 +687,7 @@ def handler(bot, update, db, cursor):
             bot.sendMessage(chat_id=chat_id, text=get_random_joke(), reply_markup=reply_markup)
         else:
             keyboard = reply_markup if chat_context_language == 'english' else reply_markup_armenian
-            text = "Please use keyboard!" if chat_context_language == 'english' else "Օգտագործիր ստեղնաշար..."
+            text = "Please use buttons!" if chat_context_language == 'english' else "Օգտվեք կոճակներից..."
             bot.sendMessage(chat_id,
                             text=text,
                             reply_markup=keyboard)
